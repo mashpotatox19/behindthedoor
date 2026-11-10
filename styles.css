@@ -1,0 +1,108 @@
+* {
+    padding: 16px 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    font-size:18px;
+    margin:0 0 12px;
+}
+
+p {
+    line-height:1.4;
+}
+
+.property>strong {
+    display:block;
+    margin-bottom:7px;
+}
+
+.property p {
+    margin:0;
+    color:#444;
+    font-size:14px;
+}
+
+.result {
+    background:#f7f7f7;
+}
+
+.score {
+    font-size:42px;
+    font-weight:700;
+    margin:18px 0 24px;
+}
+
+.result p {
+    margin:0 0 14px;
+}
+
+.result p:last-child {
+    font-size:14px;
+    color:#444;
+    margin-bottom:4px;
+}
+
+.warnings {
+    padding-top:15px;
+}
+
+.flag {
+    border:1px solid #bdbdbd;
+    background:#fafafa;
+    padding:12px 11px;
+    margin:0 0 10px;
+    border-left:4px solid #aaa;
+}
+
+.flag.high {
+    border-left-color:#b94d4d;
+}
+
+.flag.medium {
+    border-left-color:#c99844;
+}
+
+.flag.low {
+    border-left-color:#999;
+}
+
+.flag-heading {
+    font-size:14px;
+}
+
+.flag-heading small {
+    font-size:12px;
+    color:#555;
+    font-weight:normal;
+    margin-left:4px;
+}
+
+.symbol {
+    margin-right:5px;
+    font-weight:bold;
+}
+
+.flag p {
+    font-size:14px;
+    margin:7px 0 0 26px;
+}
+
+.flag .evidence {
+    font-style:italic;
+    overflow-wrap:anywhere;
+}
+
+.limits p,footer {
+    font-size:13px;
+}
+
+footer {
+    padding:12px 7px;
+    background:#f5f5f5;
+}
+
+footer p {
+    font-size:11px;
+    color:#555;
+}

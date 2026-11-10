@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      BehindTheDoor
+    </title>
+    <link rel="stylesheet" href="styles.css"></head>
+
+  <body>
+    <header>
+      <h1>
+        BehindTheDoor
+      </h1>
+      <div>
+        <strong>Zillow rental listing checker</strong> / Version 1.0.2
+      </div>
+      <div>
+      emailme@mailserver.com
+      </div>
+    </header>
+
+    <section class="property">
+      <h2>
+        Listing at
+      </h2>
+      <strong>
+        DEMO · 222 2nd Street, Baltimore, MD
+      </strong>
+      <p>
+        $850/month / 3 of 3 details found
+      </p>
+    </section>
+
+    <section class="result">
+      <h2>
+        Result
+      </h2>
+      <div class="score">
+        0 / 100
+      </div>
+      <p>
+      <strong>
+        High concern
+      </strong>
+      </p>
+      <p>
+        !! Not real listing
+      </p>
+    </section>
+
+    <section class="warnings">
+      <h2>
+        Possible problems (5 found)
+      </h2>
+      <div class="flag high">
+        <div class="flag-heading">
+          <span class="symbol">
+            !
+          </span>
+          <strong>
+            Payment requested before touring/viewing
+          </strong>
+          <small>
+            high
+          </small>
+        </div>
+        <p>
+          The description appears to ask for money before an in-person or virtual 
+          tour. Do not pay to view a property.
+        </p>
+        <p class="evidence">
+          “…ome available for rent. First person to send the deposit today gets 
+          priority. A deposit is required before viewing the property. Contact 
+          me only on Telegram. I…”
+        </p>
+      </div>
+
+      <div class="flag medium">
+        <div class="flag-heading">
+          <span class="symbol">
+            ⚠
+          </span>
+          <strong>
+            Viewing restrictions
+        </strong>
+          <small>
+          medium
+          </small>
+        </div>
+
+        <p>
+          The listing suggests the property cannot be viewed. Ask for a verifiable
+          tour before paying or sharing sensitive information.
+        </p>
+        <p class="evidence">
+          “…ram. I am currently out of the country. No in-person showings are 
+          available.”
+        </p>
+        </div>
+
+      <div class="flag medium">
+        <div class="flag-heading">
+          <span class="symbol">
+            ⚠
+          </span>
+          <strong>
+            Pressure to pay quickly
+          </strong>
+          <small>
+            medium
+          </small>
+        </div>
+        <p>
+          Urgency linked to a payment is a warning sign. A legitimate renter should 
+          have time to verify details and review paperwork.
+        </p>
+        <p class="evidence">
+          “…zy two bedroom home available for rent. First person to send the deposit
+          today gets priority. A deposit is required b…”
+        </p>
+      </div>
+
+      <div class="flag medium">
+        <div class="flag-heading">
+          <span class="symbol">
+            ⚠
+          </span>
+          <strong>
+            Landlord says they are away
+          </strong>
+          <small>
+            medium
+          </small>
+        </div>
+
+        <p>
+          Being away is not evidence of fraud, but it makes independent verification
+          of management authority more important.
+        </p>
+        <p class="evidence">
+          “…property. Contact me only on Telegram. I am currently out of the country.
+          No in-person showings are available.”
+        </p>
+      </div>
+
+      <div class="flag low">
+        <div class="flag-heading">
+          <span class="symbol">
+            ⚠
+          </span>
+          <strong>
+            Unusual contact instructions
+          </strong>
+          <small>
+            low
+          </small>
+        </div>
+        <p>
+          The description directs contact to an external messaging service. Confirm 
+          the contact matches the legitimate property manager.
+        </p>
+        <p class="evidence">
+          “…s required before viewing the property. Contact me only on Telegram. I am
+          currently out of the country. No in-pe…”
+        </p>
+        </div>
+    </section>
+
+    <section class="limits">
+      <h2>
+        Not checked
+      </h2>
+      <p>
+        Owner identity, property records, listing photos, other ads, and typical rent in the area.
+      </p>
+    </section>
+
+    <footer>
+      <strong>Reminder:</strong> This is only a basic text scan. It cannot 
+      tell you for sure whether a listing is real. Check the landlord and 
+      see the property before sending money.
+      <p>
+        Demo data only. No real listing is scanned.
+      </p>
+    </footer>
+  </body>
+</html>
