@@ -1,10 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "BehindTheDoor \u2014 Static Demo",
-  "version": "1.0.2",
-  "description": "Static fictional rental listing warning report.",
+  "name": "BehindTheDoor — Rental Scam Checker",
+  "short_name": "BehindTheDoor",
+  "version": "1.0.4",
+  "description": "Checks Facebook Marketplace rental listings for common scam warning signs and gives a 5-star reliability rating.",
+  "minimum_chrome_version": "105",
+  "permissions": ["activeTab", "scripting"],
   "action": {
-    "default_title": "BehindTheDoor",
+    "default_title": "BehindTheDoor — check this rental listing",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon-16.png",
